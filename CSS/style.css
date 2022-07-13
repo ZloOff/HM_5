@@ -59,7 +59,7 @@
    border: 1px solid black;
     flex-direction: column;
     width: 370px;
-    margin: 20px;
+    /* margin: 20px; */
     gap: 20px;
 }
 .img_1{
