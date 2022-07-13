@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head_logo {
+  background-color: darkslategray;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo_img {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  gap: 4px;
+}
+
+.header_img {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.header_input {
+  padding: 7px 50px 7px 10px;
+  font-size: 17px;
+  background-color: darkslategray;
+  border: 1px solid #ccc;
+  background-image: url(../img/search-icon-icon-find-svg-1074480.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 210px;
+  margin-right: 20px;
+}
+
+.header_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+}
+
+.logo_img {
+  width: 105px;
+  margin-left: 20px;
+}
+
+.list_link {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.link_nav {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.post_content {
+  margin-top: 30px;
+}
+
+.container_post_content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.block_1_3 {
+  width: 300px;
+  border: 2px solid gray;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.block_1_3_shadow_blue {
+  box-shadow: 12px 5px 5px rgb(80, 80, 255),
+    -12px -5px 5px rgb(255, 80, 80);
+}
+
+.block_1_3_shadow_red {
+  box-shadow: 12px 5px 5px red, -12px -5px 5px black;
+}
+
+.block_1_3_shadow_red_yellow {
+  box-shadow:
+    -12px -12px 5px -5px rgba(123, 51, 90, .5),
+    -12px 12px 5px -5px rgba(60, 74, 123, .5),
+    12px -12px 5px -5px rgba(255, 0, 0, .5),
+    12px 12px 5px -5px rgba(60, 123, 68, .5);
+}
+
+.block_1_3_h {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.block_1_3_img {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.block_1_3_p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.block_1_3_a {
+  text-decoration: none;
+  color: darkviolet;
+  border-bottom: 1px solid darkviolet;
+}
+
+.block_1_3_a:hover {
+  text-decoration: none;
+  color: #cf0000;
+  border-bottom-color: rgba(208, 64, 0, 0.2);
+}
+.business_strategy {
+  margin-top: 100px;
+}
