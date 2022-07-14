@@ -19,13 +19,16 @@
     width: 30px;}
 
     .header_input {
+    background-image: url(../img/Dendruff.png);
+    background-size: 20px;
+    background-position: 150px;
+    background-repeat: no-repeat;
     margin-right: 10px;
     height: 20px;
-    background-color: rgb(6, 185, 66);}
+    background-color: rgb(175, 158, 204);}
 
-    .input ::placeholder {
-    color: aqua;
-    }
+    .header_input::placeholder {
+    color: rgb(165, 119, 51);}
 
     .div_header {
     height: 100px;
