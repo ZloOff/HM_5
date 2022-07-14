@@ -127,39 +127,54 @@
 
 .part_2 {
     margin: 20px;
+display: flex;
+flex-direction: column;
+row-gap: 90px;
 
 }
 
 .box_1 {
     display: flex;
-    gap: 20px;
+
+    align-items: center;
+   column-gap: 50px;
 }
 
 .boxx {
-
-    width: 200px;
-    padding: 15px;
+display: flex;
+max-width: 350px;
+    width: 100%;
+   
+   
 }
 
 .boxx_2 {
-    width: 200px;
-    padding: 15px;
+    display: flex;
+   max-width: 350px;
+   width: 100%;
+   
 }
 
 .box_2 {
     display: flex;
-    gap: 20px;
-    margin: 20px;
+    align-items: center;
+  column-gap: 30px;
+  
 }
 
 .bag {
-    width: 200px;
-    padding: 15px;
+    display: flex;
+    max-width: 350px;
+        width: 100%;
 }
 
 .bag_2 {
-    width: 200px;
+    display: flex;
+    max-width: 350px;
+        width: 100%;
     background-color: lightgray;
+}
+.bag_2_p{
     padding: 15px;
 }
 
@@ -354,4 +369,7 @@ font-size: 40px;
 .linkedin{
     border-radius: 50%;
     width: 30px;
+}
+.logo_2{
+    gap: 10px;
 }
