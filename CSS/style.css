@@ -156,7 +156,7 @@ max-width: 300px;
 
 .box_2 {
     display: flex;
- column-gap: 30px;
+ column-gap: 40px;
   
 }
 
@@ -174,9 +174,7 @@ max-width: 300px;
     padding: 10px;
    
 }
-.bag_2_p{
-   
-}
+
 
 .Main_3 {
     display: flex;
@@ -304,6 +302,7 @@ justify-content: center;
     color: white;
     background-color:  rgb(9, 230, 112);
     border: 0px;
+    cursor: pointer;
 
 }
 .Main_6_1{
