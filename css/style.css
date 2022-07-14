@@ -41,15 +41,21 @@
     gap: 10px;
     justify-content: center;}
 
+    .section1_div {
+      width: 330px;
+    border: 2px solid rgb(221, 6, 6);
+    padding: 20px;}
+
     .section1_h2 {
     margin-bottom: 10px;}
 
     .section1_img {
     border-radius: 5px solid red ;
-    width: 370px;
-    height: 320px;}
+    width: 100%;
+    height: 209px;}
 
     .section1_p {
+      width: 330px;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 350px;}
@@ -196,7 +202,7 @@
   margin-top: 50px;
   margin-bottom:20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   background-color: gray;
   align-items: center;
   gap: 10px;}
