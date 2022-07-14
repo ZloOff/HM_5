@@ -128,6 +128,7 @@
     margin-bottom: 50px;}
 
     .section4_div3 {
+    box-shadow: 12px 12px 12px grey;
     background-color: rgb(156, 179, 179);
     padding-left: 20px;}
 
@@ -172,8 +173,7 @@
   width: 300px;
   border-top: black;
   border-left: black;
-  border-right: black;
-  }
+  border-right: black;}
 
   .btn2 {
   margin-top: 10px;
