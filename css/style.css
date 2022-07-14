@@ -20,9 +20,12 @@
 
     .header_input {
     margin-right: 10px;
-  height: 20px;
-  color: #fff;
-  background-color: rgb(119, 106, 106);}
+    height: 20px;
+    background-color: rgb(6, 185, 66);}
+
+    .input ::placeholder {
+    color: aqua;
+    }
 
     .div_header {
     height: 100px;
