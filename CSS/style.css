@@ -209,25 +209,78 @@
 .Main_4 {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin: 50px;
+    column-gap: 100px;
+    margin-top: 100px;
+   
 }
 
 .part_one {
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
-    align-self: center;
+ align-self: center;
+   
 
 }
 
 .part_one_h {
 
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
 .part_one_p {
     row-gap: 50px;
 }
+.map{
+width: 40%;
+}
+.h_5{
 
+    font-size: 30px;
+    color: rgb(38, 222, 29);
+}
+.Main_5{
+    margin-top: 80px;
+}
+
+.Main_5_1{
+  
+    display: flex;
+justify-content: flex-end;
+    flex-direction: column;
+   gap: 30px;
+  padding-left: 200px;
+   
+}
+
+
+.Main_5_2{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+   
+}
+.coloumn_1{
+    display: flex;
+    flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+    background-color: rgb(230, 243, 216);
+    width: 300px;
+    row-gap: 30px;
+    box-shadow: 12px 5px 5px rgb(231, 220, 15), -12px -5px 5px rgb(241, 170, 144);
+
+}
+.h5_1{
+    font-size: 40px;
+    color: rgb(9, 230, 112);
+}
+.button_1{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color:  rgb(9, 230, 112);
+    border: 0px;
+
+}
