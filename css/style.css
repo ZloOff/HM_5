@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.header_logo {
+  max-width: 1500px;
+  margin: auto;
+}
+
 .head_logo {
   background-color: darkslategray;
   height: 85px;
@@ -190,7 +195,7 @@
   gap: 50px;
 }
 
-.about_us_a{
+.about_us_a {
   text-decoration: none;
   color: darkviolet;
   border-bottom: 1px solid darkviolet;
@@ -467,4 +472,27 @@
 .header_input:focus:-ms-input-placeholder {
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+.footer_bot {
+  max-width: 1500px;
+  margin: auto;
+}
+.footer_bot_all {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkslategray;
+  height: 85px;
+}
+.footer_bot_img {
+  width: 35px;
+}
+.footer_bot_p {
+  width: 600px;
+  text-align: center;
+}
+.footer_bot_logo {
+  display: flex;
+  gap: 5px;
 }
