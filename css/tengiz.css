@@ -195,9 +195,6 @@
     width: 90%;  
     gap: 40px;
 }
-.p1 {
-    /* max-width: 157px; */
-}
 .map {
     display: flex;
     justify-content: center;
@@ -315,12 +312,6 @@
 }
 .submit_button {
     margin: auto;
-
-}
-.
-.input_main {
-    /* margin-top: 50px;
-    margin-bottom: 50px; */
 
 }
 .footer_main {
