@@ -228,13 +228,15 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* align-content: center; */
+    align-content: center;
     /* justify-content: center;
     align-items: center; */
 }
 .Leading {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
     /* margin-top: 100px;
     margin-left: 95px; */
 }
@@ -253,8 +255,10 @@
     /* margin-bottom: 20px; */
 }
 .block_1_of_3 {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(250, 244, 232);
-    width: 25%;
+    width: 300px;
     border: 1px solid black;
     padding: 0px 15px;
     margin-top: 30px;
@@ -277,6 +281,7 @@
     background-color: blueviolet;
     border-color: blueviolet;
     color: white;
+    width: 130px;
     
 }
 .input_block {
